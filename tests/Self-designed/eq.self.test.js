@@ -1,5 +1,5 @@
 
-import eq from '../src/eq.js';
+import eq from '../../src/eq.js';
 
 describe('eq.js', () => {
 
