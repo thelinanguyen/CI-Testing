@@ -5,12 +5,12 @@ describe('eq.js', () => {
 
   // Equal primitive values 
   test('should return true when two numbers are equal', () => {
-    expect(eq(5, 5)).toBe(true);
+    expect(eq(2, 2)).toBe(true);
   });
 
   // Different primitive values
   test('should return false when two numbers are different', () => {
-    expect(eq(5, 10)).toBe(false);
+    expect(eq(2, 5)).toBe(false);
   });
 
   // 0 should be equal to false because of loose equality (==)
