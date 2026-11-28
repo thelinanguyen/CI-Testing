@@ -122,8 +122,6 @@ describe('countBy (self-designed tests)', () => {
     });
   });
 
-
-
   // Reports a TypeError for an invalid iteratee
   test('throws TypeError when the iteratee is null', () => {
     expect(() => countBy([1, 2, 3], null)).toThrow(TypeError);
